@@ -1,0 +1,26 @@
+{
+  "name": "pick-npm-run-all",
+  "version": "0.1.0",
+  "description": "Pick what to pass to `npm-run-all`",
+  "bin": "index.js",
+  "main": "index.js",
+  "scripts": {
+    "example:a": "echo 'example:a'",
+    "example:b": "echo 'example:b'",
+    "example:c": "echo 'example:c'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Evan Lovely",
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^0.10.0",
+    "inquirer": "^6.1.0",
+    "npm-run-all": "^4.1.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvanLovely/pick-npm-run-all"
+  }
+}
