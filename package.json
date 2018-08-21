@@ -1,6 +1,6 @@
 {
   "name": "pick-npm-run-all",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pick what to pass to `npm-run-all`",
   "bin": "index.js",
   "main": "index.js",
